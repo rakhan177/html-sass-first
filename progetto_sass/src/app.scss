@@ -1,0 +1,27 @@
+// possiamo utilizzare le variabili per identificare un attributo:
+$title-color: red;
+$subtitle-color: blue;
+$par-color: #fff;
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+#container{
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  .sezione{
+    width: 100%;
+    height: 50%;
+    &-titolo{
+      color: $title-color;
+    }
+    &-sottotitolo{
+      color: $subtitle-color
+    }
+    &-paragrafo{
+      color: $par-color;
+    }
+  }
+}

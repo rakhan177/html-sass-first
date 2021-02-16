@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+}
+#container .sezione {
+  width: 100%;
+  height: 50%;
+}
+#container .sezione-titolo {
+  color: red;
+}
+#container .sezione-sottotitolo {
+  color: blue;
+}
+#container .sezione-paragrafo {
+  color: #fff;
+}
